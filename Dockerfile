@@ -1,6 +1,6 @@
 FROM ubuntu
 
-CMD add-apt-repository ppa:webupd8team/java
+CMD add-apt-repository ppa:webupd8team/java -y
 
 RUN apt-get update && \
     apt-get install -y software-properties-common && \
